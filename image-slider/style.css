@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.carousel{
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.prev{
+    position: absolute;
+    top: 50%;
+    right: 96%;
+    background-color: bisque;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    left: 96%;
+    background-color: bisque;
+}
+li{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+}
+li[data-active]{
+    opacity: 1;
+}
+ img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
