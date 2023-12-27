@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+
+    justify-content: center;
+    height: 100vh;
+
+   
+}
+.nav{
+    padding: 30px 50px 0 50px;
+    background-color: antiquewhite;
+    width: 10vw;
+}
+button{
+    margin-bottom: 10px;
+    background-color: blueviolet;
+}
+.main{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px 0 50px;
+    width: 100vw;
+    
+}
