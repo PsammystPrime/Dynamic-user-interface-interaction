@@ -10,7 +10,7 @@ body{
    
 }
 .nav{
-    padding: 30px 50px 0 50px;
+    padding: 35px 0px 0 50px;
     background-color: antiquewhite;
     width: 10vw;
 }
@@ -22,7 +22,7 @@ button{
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
-    padding: 0px 50px 0 50px;
+    padding: 0px 0px 0 0px;
     width: 100vw;
     
 }
