@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+.num{
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: antiquewhite;
+}
+.buttons{
+    display: flex;
+    column-gap: 10px;
+
+}
+button{
+    color: chocolate;
+    background-color: bisque;
+}
+button:hover{
+    color: chocolate;
+    background-color: gray;
+    border: none;
+}
