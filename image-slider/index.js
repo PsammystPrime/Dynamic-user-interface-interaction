@@ -1,11 +1,16 @@
-const prev = document.querySelector('prev')
-const next = document.querySelector('next')
-const carousel = document.querySelector('carousel')
+const buttons = document.querySelectorAll('button')
+const carousel = document.querySelector('.carousel')
 
-next.addEventListener('click',()=>{
+buttons.forEach(button =>{
+    button.addEventListener('click', ()=>{
+        const offset = button.dataset.type === 'next' ? 1 : -1
+        const slides = button.closest('[data-carousel]').querySelector('[data-slides]')
+         const active =slides.querySelector('[data-active]')
+         let newIndex =  [...slides.children].indexOf(active) + offset
 
-});
-
-next.addEventListener('click',()=>{
-    
-});
+         slides.children[newIndex].dataset.active = true
+         delete active.dataset.active
+        console.log('hey')
+    });
+} 
+)
