@@ -16,5 +16,4 @@ buttons.forEach(button =>{
          slides.children[newIndex].dataset.active = true
          delete active.dataset.active
     });
-} 
-);
+});
