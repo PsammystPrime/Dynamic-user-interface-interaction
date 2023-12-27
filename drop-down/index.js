@@ -31,6 +31,7 @@ btn.addEventListener('click',()=>{
        dark.addEventListener('click', ()=>{
         let element = document.body;
         element.classList.toggle('dark');
+        
        });
     } else {
         menus.textContent = '';
