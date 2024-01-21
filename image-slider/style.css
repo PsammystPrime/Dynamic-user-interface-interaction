@@ -1,8 +1,9 @@
 body{
     margin: 0;
+   
 }
 .carousel{
-    background-color: antiquewhite;
+    background-color: rgb(171, 194, 180);
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -15,6 +16,10 @@ body{
     border: none;
     z-index: 2;
     font-size: 40px;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .next{
     position: absolute;
@@ -24,6 +29,18 @@ body{
     background-color: bisque;
     font-size: 40px;
     z-index: 2;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes color{
+    from{
+        background-color: bisque;
+    }
+    to{
+        background-color: coral;
+    }
 }
 button:hover{
     background-color: aquamarine;
